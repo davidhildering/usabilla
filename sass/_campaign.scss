@@ -1,0 +1,14 @@
+.campaign {
+  .campaign-content {
+    font-size: 35px;
+    padding: 45px;
+    line-height: 45px;
+    color: $colorGrey;
+  }
+  @media screen and (max-width:$screen-sm) {
+    .campaign-content {
+      font-size: 25px;
+      padding: 20px
+    }
+  }
+}

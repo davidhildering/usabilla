@@ -1,0 +1,67 @@
+ #philips {
+   min-height: 600px;
+   background-image: url(/img/philips.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding-top: 100px;
+
+   .client-text {
+     color: $colorWhite;
+     text-align: right;
+     position: relative;
+     margin: 50px 50px 0px auto;
+     max-width: 500px;
+     svg path {
+       fill: $colorWhite;
+     }
+   }
+ }
+
+ #bijenkorf {
+   min-height: 600px;
+   background-image: url(/img/bijenkorf.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding-top: 100px;
+
+   .client-background {
+     content: '\A';
+     position: absolute;
+     width: 100%;
+     margin-top: -100px;
+     height: 600px;
+     background: rgba(0, 0, 0, 0.8);
+     opacity: 0.9;
+   }
+   .client-text {
+     color: $colorWhite;
+     text-align: left;
+     position: relative;
+     margin: 50px 50px 0px auto;
+     max-width: 500px;
+     svg path {
+       fill: $colorWhite;
+     }
+   }
+
+ }
+ .client-review {
+  .client-text,
+  .client-background {
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+
+  .subtext {
+    padding: 0px 0 15px 0;
+  }
+
+  .btn-client {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+  }
+}

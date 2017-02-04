@@ -6,9 +6,23 @@
 
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
-// Add any javascript plugin styles here
-@import "plugins";
-
-// Your main core theme styles
+// main core style
 @import "main";
 
+//navbar style
+@import "navbar";
+
+// header style
+@import "header";
+
+// brands style
+@import "brands";
+
+// brands style
+@import "campaign";
+
+//USP's style
+@import "usa-usps";
+
+//Client-review style
+@import "client-review";
