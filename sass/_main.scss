@@ -1,0 +1,25 @@
+//variables
+$usaNavbarColor: #00A5C9;
+
+.usa-navbar {
+  background: $usaNavbarColor;
+}
+
+.navbar-fixed-top {
+  border-width: 8px 0 1px;
+  .usa-logo {
+    margin: -45px 0px -55px 0px;
+  }
+  .usa-btn {
+    float: right;
+    margin: 15px 25px 0px 0px;
+    color: #fff;
+    background: #F4606E;
+    box-shadow: 0 0.0625rem 0.125rem rgba(218, 69, 83, 0.15);
+    border-color: #DA4553;
+    text-shadow: 0 0.125rem #DA4553;
+  }
+}
+
+
+
