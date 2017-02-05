@@ -51,4 +51,20 @@
     color: #F4606E;
     background: #fff;
   }
+
+  .fadeInBlock {
+    opacity:0;
+  }
+
+  .hide {
+    display: none;
+  }
+  .alert-info {
+    background-color: $colorWhite;
+    border-color: $colorWhite;
+    background: $colorGrey;
+    border-radius: 5px;
+    padding: 0px;
+    color: $colorWhite;
+  }
 }

@@ -79,7 +79,15 @@
     color: #fff;
     background-color: transparent;
     border-color: #fff;
+    opacity: 1;
   }
+   .btn-client:hover,
+   .btn-client:focus {
+     color: black;
+     border-color: #fff;
+      background: #fff;
+     opacity: 0.8;
+   }
 
    @media screen and (max-width:$screen-md) {
      .client-text,

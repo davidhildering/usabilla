@@ -9,5 +9,7 @@
   }
   .fa:hover {
     color: $usaNavbarColor;
+    @include animation(spinny 1.5s);
   }
+
 }

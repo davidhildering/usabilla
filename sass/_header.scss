@@ -8,18 +8,17 @@ header {
     background-position: center;
     padding-top: 120px;
 
-
-
     .header-text {
       color: $colorWhite;
       text-align: center;
       position: relative;
       margin: 0 auto;
       max-width: 400px;
+      @include animation(tag-bounce 1.5s);
     }
 
     .explore {
-      padding-top: 45%;
+      padding-top: 30%;
     }
 
     .header-background {

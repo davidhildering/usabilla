@@ -1,7 +1,15 @@
 .usa-usps {
   padding: 30px;
   color: $colorGrey;
-
+  .omni:hover {
+    @include animation(spinny 1.5s);
+  }
+  .scale:hover {
+    @include animation(scale-up 1.5s);
+  }
+  .bounce:hover {
+    @include animation(bounce-slow 2s);
+  }
   .usp-text {
     text-align: center;
     padding: 10px 40px;
