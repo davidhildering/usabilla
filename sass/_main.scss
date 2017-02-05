@@ -1,5 +1,9 @@
 .usabilla-landing {
 
+  div {
+    box-sizing: border-box;
+  }
+
   h1 {
     font-size: 43px;
   }
@@ -8,10 +12,43 @@
     font-size: 25px;
   }
 
+  h3 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+
+  h4 {
+    font-size: 21px;
+  }
+
   p {
     font-size: 15px;
   }
+
+  a {
+    color: $colorWhite;
+    text-decoration: none;
+  }
+  a:hover, a:focus {
+    text-decoration: none;
+    color: $colorWhite;
+  }
+
   .text-center {
     text-align: center;
+  }
+  .usa-btn {
+    float: right;
+    margin: 10px;
+    color: #fff;
+    background: #F4606E;
+    box-shadow: 0 0.0625rem 0.125rem rgba(218, 69, 83, 0.15);
+    border-color: #DA4553;
+    text-shadow: 0 0.125rem #DA4553;
+  }
+  .usa-btn:hover,
+  .usa-btn:focus {
+    color: #F4606E;
+    background: #fff;
   }
 }

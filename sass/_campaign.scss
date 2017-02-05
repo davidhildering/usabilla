@@ -1,14 +1,33 @@
 .campaign {
+  padding: 25px 0;
+
   .campaign-content {
-    font-size: 35px;
-    padding: 45px;
-    line-height: 45px;
+    font-size: 43px;
+    padding: 50px;
+    line-height: 50px;
     color: $colorGrey;
+    margin-top: 45px;
   }
-  @media screen and (max-width:$screen-sm) {
+  @media screen and (max-width: $screen-md) {
     .campaign-content {
-      font-size: 25px;
-      padding: 20px
+      font-size: 28px;
+      padding: 20px;
+      margin-top: 0px;
+      text-align: center;
+
+    }
+  }
+  .optimize-content {
+    color: $darkGrey;
+    padding: 30px;
+    h3 {
+      font-size: 30px;
+    }
+  }
+  .img-box {
+    text-align: center;
+    img {
+      max-width:70%;
     }
   }
 }

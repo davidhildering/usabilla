@@ -1,80 +1,82 @@
 <!doctype html>
 <!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""><![endif]-->
 <!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<html class="no-js lt-ie9 lt-ie8" lang=""><![endif]-->
 <!--[if IE 8]>
-<html class="no-js lt-ie9" lang=""> <![endif]-->
+<html class="no-js lt-ie9" lang=""><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
-<!--<![endif]-->
+<html class="no-js" lang="en"><!--<![endif]-->
 
 <head>
     <title>Usabilla landingpage assignment</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Usabilla landingpage assignment">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="dist/css/styles.css">
 </head>
 
 <body class="usabilla-landing">
 <!-- Navigation -->
-<nav class="navbar usa-navbar navbar-fixed-top" role="navigation">
-    <div class="container">
-        <img src="img/usabilla-logo.svg" class="usa-logo">
-        <div class="btn usa-btn">Request a demo</div>
+<nav class="usa-navbar">
+    <div class="nav-content">
+        <a href="#header"><img src="img/usabilla-logo-white.png" class="usa-logo"></a>
+        <a href="#form"><div class="btn usa-btn">Request a demo</div></a>
     </div>
 </nav>
 
-<header>
+<header id="header">
     <div class="usa-img-container">
-    <div class="header-background"></div>
-    <div class="header-text">
-        <h1>Don't discount the customer experience</h1>
-        <h2>It's your most valuable product</h2>
-        <div class="explore">
-            <span>EXPLORE</span>
-            <div class="arrow-down">
-                <icon class="glyphicon-arrow-down"></icon>
-            </div>
-        </div>
+        <div class="header-background"></div>
+
+                <div class="header-text">
+                    <h1>Don't discount the customer experience</h1>
+                    <h2>It's your most valuable product</h2>
+                    <a href="#campaign">
+                    <div class="explore">
+                        <span>EXPLORE</span>
+                        <div class="arrow-bounce">
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    </a>
+                </div>
     </div>
-</div>
 </header>
-<section class="brands">
+<section class="brands hidden-xs">
     <div class="container">
-    <div class="row">
-        <div class="col-xs-5 col-sm-2 col-md-2  col-md-offset-1">
-            <div class="img-box">
-                <img src="img/brand-logos/hema.svg" alt="hema">
+        <div class="row">
+            <div class="col-xs-5 col-sm-2 col-md-2  col-md-offset-1">
+                <div class="img-box">
+                    <img src="img/brand-logos/bijenkorf.svg" alt="g-star">
+                </div>
+            </div>
+            <div class="col-xs-5 col-sm-2 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/tommy_hilfiger.svg" alt="tommy hilfiger">
+                </div>
+            </div>
+            <div class="col-xs-5 col-sm-2 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/coolblue.svg" alt="coolblue">
+                </div>
+            </div>
+            <div class="col-xs-5 col-sm-2 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/adidas.svg" alt="adidas">
+                </div>
+            </div>
+            <div class="col-xs-5 col-sm-2 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/staples.svg" alt="staples">
+                </div>
             </div>
         </div>
-        <div class="col-xs-5 col-sm-2 col-md-2">
-            <div class="img-box">
-                <img src="img/brand-logos/tommy_hilfiger.svg" alt="tommy hilfiger">
-            </div>
-        </div>
-        <div class="col-xs-5 col-sm-2 col-md-2">
-            <div class="img-box">
-                <img src="img/brand-logos/coolblue.svg" alt="coolblue">
-            </div>
-        </div>
-        <div class="col-xs-5 col-sm-2 col-md-2">
-            <div class="img-box">
-                <img src="img/brand-logos/adidas.svg" alt="adidas">
-            </div>
-        </div>
-        <div class="col-xs-5 col-sm-2 col-md-2">
-            <div class="img-box">
-                <img src="img/brand-logos/staples.svg" alt="staples">
-            </div>
-        </div>
-    </div>
     </div>
 </section>
-<section class="campaign">
+<section id="campaign" class="campaign">
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-7">
@@ -94,65 +96,210 @@
             <div class="col-sm-4 col-md-4 col-lg-4 text-center">
                 <img src="img/usp-icons/icon1.png" width="80" alt="nps improve">
                 <div class="usp-text">
-                <h4>Improve NPS</h4>
-                <p>Enhance brand image and loyalty</p>
+                    <h4>Improve NPS</h4>
+                    <p>Enhance brand image and loyalty</p>
                 </div>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4 text-center">
                 <img src="img/usp-icons/icon2.png" width="80" alt="omnichannel">
                 <div class="usp-text">
-                <h4>Optimise for omni-channel</h4>
-                <p>Create a seamless experience across all touchpoints</p>
+                    <h4>Optimise for omni-channel</h4>
+                    <p>Create a seamless experience across all touchpoints</p>
                 </div>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4 text-center">
                 <img src="img/usp-icons/icon3.png" width="80" alt="identity friction">
                 <div class="usp-text">
-                <h4>Identity Friction</h4>
-                <p>See where your users are getting stuck</p>
+                    <h4>Identity Friction</h4>
+                    <p>See where your users are getting stuck</p>
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 </section>
 <section class="client-review" id="philips">
-    <div class="client-text">
-        <img src="img/brand-logos/philips.svg" width="80" alt="identity friction">
-        <h2>"Collecting user feedback is one of the most underused methodologies to really get the pulse of your customer quickly"</h2>
-        <div>Peter Ciepiela,</div>
-        <div class="subtext">Digital Optimization Lead- Philips</div>
-        <div class="btn btn-client">Read case sudy</div>
-
+    <div class="container">
+        <div class="row">
+            <div class="client-text">
+                <img src="img/brand-logos/philips.svg" width="80" alt="identity friction">
+                <h3>"Collecting user feedback is one of the most underused methodologies to really get the pulse of your
+                    customer quickly"</h3>
+                <div>Peter Ciepiela,</div>
+                <div class="subtext">Digital Optimization Lead- Philips</div>
+                <a href="#">
+                    <div class="btn btn-client">Read case sudy</div>
+                </a>
+            </div>
+        </div>
     </div>
 </section>
 <section class="client-review" id="bijenkorf">
     <div class="client-background"></div>
-    <div class="client-text">
-        <img src="img/brand-logos/philips.svg" width="80" alt="identity friction">
-        <h2>"Collecting user feedback is one of the most underused methodologies to really get the pulse of your customer quickly"</h2>
-        <div>Peter Ciepiela,</div>
-        <div class="subtext">Digital Optimization Lead- Philips</div>
-        <div class="btn btn-client">Read case sudy</div>
+    <div class="container">
+        <div class="row">
+            <div class="client-text">
+                <img src="img/brand-logos/bijenkorf.svg" alt="identity friction">
+                <h3>"We use Usabilla on a daily basis. The Quantity and diversity of feedback we receive provides a
+                    broder
+                    picture about the state of the app"</h3>
+                <div>Lorum ipsum,</div>
+                <div class="subtext">Lorum ipsum, De Bijenkorf</div>
+                <a href="#">
+                    <div class="btn btn-client">Read case sudy</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="campaign">
+    <div class="container">
+        <div class="row">
+            <div class="optimize-content text-center">
+                <h3>Optimize, everywhere</h3>
+                <h4>Usabilla helps telecoms improve</h4>
+                <h4>the customer experience across all digital</h4>
+            </div>
+            <div class="img-box">
+                <img src="img/devices.png" alt="usabilla devices">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="brands" id="bottom-brands">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="content-block">
+                <span class="blue-text">Happy customers</span>
+                <h3>These companies already work with Usabilla.</h3>
+                <h3>Join them.</h3>
+            </div>
 
+            <div class="col-xs-6 col-sm-3 col-md-2  col-md-offset-1">
+                <div class="img-box">
+                    <img src="img/brand-logos/hema.svg" alt="hema">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/tommy_hilfiger.svg" alt="tommy hilfiger">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/coolblue.svg" alt="coolblue">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/adidas.svg" alt="adidas">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/staples.svg" alt="staples">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2  col-md-offset-1">
+                <div class="img-box">
+                    <img src="img/brand-logos/bijenkorf.svg" alt="bijenkorf">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/hema.svg" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/allegro.svg" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/morhipo.svg" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/philips.svg" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2  col-md-offset-1">
+                <div class="img-box">
+                    <img src="img/brand-logos/group12.svg" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/coolblue.svg" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/hb_logo.svg" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/staples.svg" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-2">
+                <div class="img-box">
+                    <img src="img/brand-logos/coolblue.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section id="form" class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="content-block">
+                <h2>Want to know more?</h2>
+                <h3>Leave us your details and we'll be in touch to schedule a personal demo</h3>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <input type="email" class="form-control form-control-lg" id="lgFormGroupInput"
+                           placeholder="you@example.com">
+                </div>
+                <div class="form-group">
+                    <div class="btn usa-btn">Schedule a demo</div>
+                </div>
+            </form>
+        </div>
     </div>
 </section>
 <!-- Footer -->
-<footer>
+<footer id="footer" class="text-center">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Your Website 2014</p>
-
-
+            <div class="col-md-4">
+                <img src="img/usabilla-logo.png" class="logo-grey">
+            </div>
+            <div class="col-md-4">
+                <p>THE STANDARD IN USER FEEDBACK</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
+                        class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span>
+                <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
+                        class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span>
+                <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
+                        class="fa fa-facebook fa-stack-1x fa-inverse"></i></span>
+                <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i
+                        class="fa fa-twitter fa-stack-1x fa-inverse"></i></span>
             </div>
         </div>
-        <!-- /.row -->
     </div>
-    <!-- /.container -->
 </footer>
 
 
-<!-- Your custom scripts compressed  -->
+<!-- custom scripts  -->
 <script src="dist/js/jquery.min.js"></script>
 <script src="dist/js/scripts.min.js"></script>
 

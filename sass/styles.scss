@@ -6,6 +6,14 @@
 
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
+@import "bower_components/compass-sass-mixins/lib/compass";
+
+//import icon awesome
+@import "../font/scss/font-awesome";
+
+// keyframes style
+@import "keyframes";
+
 // main core style
 @import "main";
 
@@ -26,3 +34,9 @@
 
 //Client-review style
 @import "client-review";
+
+//Form style
+@import "form";
+
+//Footer style
+@import "footer";

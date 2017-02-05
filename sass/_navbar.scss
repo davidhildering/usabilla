@@ -1,21 +1,25 @@
-.usa-navbar {
-  background: $usaNavbarColor;
+.nav {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  top: inherit;
+  @media (min-width: 1100px) {
+    bottom: 0;
+  }
 }
 
-.navbar-fixed-top {
-  border-width: 8px 0 1px;
-  .usa-logo {
-    margin: -45px 0px -55px 0px;
-  }
-  .usa-btn {
-    float: right;
-    margin: 15px 25px 0px 0px;
-    color: #fff;
-    background: #F4606E;
-    box-shadow: 0 0.0625rem 0.125rem rgba(218, 69, 83, 0.15);
-    border-color: #DA4553;
-    text-shadow: 0 0.125rem #DA4553;
-  }
+.usa-navbar {
+  background: $usaNavbarColor;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  min-height: 70px;
+}
+
+.nav-content {
+  padding: 15px 15px;
 }
 
 

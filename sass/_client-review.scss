@@ -1,3 +1,5 @@
+// philips
+
  #philips {
    min-height: 600px;
    background-image: url(/img/philips.jpg);
@@ -10,13 +12,20 @@
      color: $colorWhite;
      text-align: right;
      position: relative;
-     margin: 50px 50px 0px auto;
+     margin: 50px 70px 0px auto;
      max-width: 500px;
      svg path {
        fill: $colorWhite;
      }
    }
+   @media screen and (max-width:$screen-md) {
+     .client-text {
+       margin: 0;
+     }
+   }
  }
+
+ // bijenkorf
 
  #bijenkorf {
    min-height: 600px;
@@ -32,22 +41,29 @@
      width: 100%;
      margin-top: -100px;
      height: 600px;
-     background: rgba(0, 0, 0, 0.8);
-     opacity: 0.9;
+     background: rgba(0, 0, 0, 0.7);
    }
    .client-text {
      color: $colorWhite;
      text-align: left;
      position: relative;
-     margin: 50px 50px 0px auto;
+     margin: 50px 70px auto;
      max-width: 500px;
      svg path {
        fill: $colorWhite;
      }
    }
-
+   @media screen and (max-width:$screen-md) {
+     .client-text {
+       margin: 20px;
+     }
+   }
  }
+
+ // general styling
+
  .client-review {
+
   .client-text,
   .client-background {
     position: absolute;
@@ -64,4 +80,13 @@
     background-color: transparent;
     border-color: #fff;
   }
+
+   @media screen and (max-width:$screen-md) {
+     .client-text,
+     .client-background {
+       width: 85%;
+     }
+   }
+
+
 }

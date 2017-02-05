@@ -1,19 +1,14 @@
 header {
 
   .usa-img-container {
-    min-height: 600px;
+    height: 570px;
     background-image: url(/img/header-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 100px;
+    padding-top: 120px;
 
-    .header-text,
-    .header-background {
-      position: absolute;
-      left: 0;
-      width: 100%;
-    }
+
 
     .header-text {
       color: $colorWhite;
@@ -21,21 +16,28 @@ header {
       position: relative;
       margin: 0 auto;
       max-width: 400px;
-      .explore {
-        padding-top: 60%;
-      }
+    }
+
+    .explore {
+      padding-top: 45%;
     }
 
     .header-background {
       content: '\A';
       position: absolute;
       width: 100%;
-      height: 600px;
+      height: 570px;
       top: 0;
       left: 0;
       background: rgba(0, 0, 0, 0.6);
       opacity: 0.9;
     }
   }
+  .arrow-bounce {
+    font-size: 30px;
+    @include animation(bounce 2s infinite);
+    margin-top: 20px;
+  }
+
 }
 

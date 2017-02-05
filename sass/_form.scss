@@ -1,0 +1,18 @@
+#form {
+  min-height: 400px;
+  background-color: $usaNavbarColor;
+
+  .content-block {
+    color: $colorWhite;
+    padding: 30px;
+    h2 {
+      font-size: 45px;
+    }
+  }
+  .container {
+    padding: 0 25%;
+    .usa-btn {
+      float: none;
+    }
+  }
+}
